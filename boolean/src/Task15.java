@@ -1,0 +1,11 @@
+public class Task15 {
+
+    public Task15() {
+    }
+
+    public boolean run(int a, int b, int c) {
+        return (a > 0 && b > 0 && c <= 0) ||
+                (a > 0 && b <= 0 && c > 0) ||
+                (a <= 0 && b > 0 && c > 0);
+    }
+}
