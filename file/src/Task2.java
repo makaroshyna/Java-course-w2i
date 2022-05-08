@@ -9,7 +9,7 @@ public class Task2 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        File task2File = new File("/home/katya/study/java/file/src/task2.txt");
+        File task2File = new File("/home/katya/study/java/w2i/file/src/task2.txt");
         FileOutputStream fos1 = new FileOutputStream(task2File);
 
         int evenNumber = 2;

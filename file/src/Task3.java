@@ -7,7 +7,7 @@ public class Task3 {
 
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
-        File task3File = new File("/home/katya/study/java/file/src/task3.txt");
+        File task3File = new File("/home/katya/study/java/w2i/file/src/task3.txt");
         FileOutputStream fos1 = new FileOutputStream(task3File);
 
         int a = sc.nextInt();
